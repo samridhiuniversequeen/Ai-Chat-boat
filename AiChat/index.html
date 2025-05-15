@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div class="user-chat-box"></div><!--logo and message from user will go-->
+        <div class="ai-chat-box">
+            <img src="ai-logo.webp" alt="Ai here" id="ai-logo" width="7.5%">
+            <div id="ai-chat-area">
+            How can i help you
+            </div><!--message-->
+        </div><!--message from ai come in this-->
+    </div><!--here chat will apear-->
+    <div id="prompt-area">
+        <input type="text" id="prompt" placeholder="Enter what you want">
+        <button id="image"><img src="image-logo.svg" alt="" id="image-logo">
+        <input type="file" accept="image/*" hidden></button>
+        <button id="submit"><img src="up-arrow.svg" alt="" id="up-arrow"></button>
+    </div><!--we write message in this-->
+    <script src="script.js"></script>
+</body>
+</html>
