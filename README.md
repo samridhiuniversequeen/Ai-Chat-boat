@@ -6,7 +6,7 @@ let image=document.querySelector("#image img")
 let imageinput=document.querySelector("#image input")
 
 
-const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAdnrQa20Fk5ag1OWWH3esScfdTOGqveT8" //add your api key
+const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" //add your api key
 let user={
     message:null,
     file:{
